@@ -8,16 +8,42 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: aquamarine;
 }
 
-.body {
-  background-color: #000000;
-  height: 100vh;
-  width: 100vw;
+.mobile {
+  width: 390px;
+  height: 844px;
+  border: 1px solid #ccc;
+}
+
+header {
+  height: 85vh;
+}
+header nav {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+header nav button {
+  height: 50px;
+  border-color: rgb(131, 37, 37);
+}
+header .home-div {
+  padding: 55px 24px;
+}
+header .home-div .date {
+  margin-top: 30px;
 }
 
 section {
-  width: 414px;
-  height: 896px;
-  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+section .row {
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .program {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
