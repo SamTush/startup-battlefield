@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;500;600;700;900&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -8,17 +9,35 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aquamarine;
+  background-color: #e2e2e2;
+  font-family: "Lato", sans-serif;
+}
+body button {
+  background-color: #f73a01;
+}
+body h1 {
+  font-weight: 900;
+}
+body h2 {
+  font-weight: 800;
+}
+body h4 {
+  font-weight: 400;
+}
+body h5 {
+  font-weight: 400;
 }
 
 .mobile {
   width: 390px;
   height: 844px;
-  border: 1px solid #ccc;
 }
 
 header {
   height: 85vh;
+  background: linear-gradient(rgba(211, 211, 211, 0.9), rgb(211, 211, 211)), url("../images/photo1.jpg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
 }
 header nav {
   height: 70px;
@@ -27,7 +46,6 @@ header nav {
 }
 header nav button {
   height: 50px;
-  border-color: rgb(131, 37, 37);
 }
 header .home-div {
   padding: 55px 24px;
@@ -35,15 +53,133 @@ header .home-div {
 header .home-div .date {
   margin-top: 30px;
 }
-
-section {
-  margin-top: 20px;
+header .home-div hr {
+  height: 10px;
 }
-section .row {
+header .home-div-about {
+  padding: 15px 24px;
+  text-align: center;
+}
+header .email-about {
+  margin-top: 30px;
+}
+header span {
+  text-decoration: underline;
+  font-weight: 600;
+}
+header .about-card {
+  margin-top: 38px;
+  border: 1px solid rgba(70, 70, 70, 0.3);
+  background-color: #e2e2e2;
+  padding: 20px 15px 10px 15px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+section .program {
   width: 98%;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.048);
 }
-section .program {
+section .program h5 {
+  color: #f73a01;
+}
+section .program p {
+  color: #ffffff;
+}
+section .main-program {
+  background: linear-gradient(rgba(21, 24, 27, 0.6), rgba(21, 24, 27, 0.7)), url("../images/squares.png");
+  background-size: 80px;
+  padding: 38px 12px;
+}
+section .main-program h3 {
+  color: #ffffff;
+}
+section .main-program hr {
+  width: 80px;
+  height: 10px;
+  border: 2px solid #f73a01;
+  background: #f73a01;
+}
+section .main-program img {
+  width: 60px;
+}
+section .main-program button {
+  background-color: #f73a01;
+  padding: 18px 42px;
+  color: #ffffff;
+  border-radius: 2px;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .logo-about {
+  background-color: #e2e2e2;
+  border-bottom: 1px solid rgba(35, 36, 37, 0.1);
+  padding: 40px 24px 40px 24px;
   display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+section .logo-about p span {
+  font-weight: 600;
+}
+section .logo-about img {
+  width: 320px;
+  margin-bottom: 10px;
+}
+section .past-about img {
+  height: 120px;
+  width: 100%;
+}
+
+.featured-speakers {
+  background-color: #ffffff;
+  padding: 38px 12px;
+}
+.featured-speakers img {
+  width: 120px;
+}
+
+.sponsors {
+  padding: 30px 30px 40px 30px;
+  background-color: #232425;
+  color: #ffffff;
+}
+.sponsors hr {
+  width: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sponsors .col-4 img {
+  width: 80px;
+}
+.sponsors .apple img {
+  height: 60px;
+}
+.sponsors .airbnb img {
+  height: 50px;
+}
+.sponsors .row .col {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: #ffffff;
+  padding: 30px 20px 20px 20px;
+}
+footer img {
+  height: 40px;
+}
+footer .col-6 {
+  display: flex;
+  align-items: center;
+}
+footer .col-6 p {
+  margin-top: 6px;
+  font-size: xx-small;
 }/*# sourceMappingURL=style.css.map */

@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;500;600;700;900&display=swap');
+
+$primary-color: #232425;
+$secondary-color: #f73a01;
+$tertiary-color: #e2e2e2;
+$primary-container: #ffffff;
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -8,17 +15,40 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
+    background-color: $tertiary-color;
+    font-family: 'Lato', sans-serif;
+
+    button {
+        background-color: $secondary-color;
+    }
+
+    h1 {
+        font-weight: 900;
+    }
+
+    h2 {
+        font-weight: 800;
+    }
+
+    h4 {
+        font-weight: 400;
+    }
+
+    h5 {
+        font-weight: 400;
+    }
 }
 
 .mobile {
     width: 390px;
     height: 844px;
-    border: 1px solid #ccc;
 }
 
 header {
     height: 85vh;
+    background: linear-gradient(rgba(211, 211, 211, 0.9), rgba(211, 211, 211, 1.0)), url('../images/photo1.jpg');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
 
     nav {
         height: 70px;
@@ -27,7 +57,6 @@ header {
 
         button {
             height: 50px;
-            border-color: rgb(131, 37, 37);
         }
     }
 
@@ -37,19 +66,170 @@ header {
         .date {
             margin-top: 30px;
         }
+
+        hr {
+            height: 10px;
+        }
+    }
+
+    .home-div-about {
+        padding: 15px 24px;
+        text-align: center;
+    }
+
+    .email-about {
+        margin-top: 30px;
+    }
+
+    span {
+        text-decoration: underline;
+        font-weight: 600;
+    }
+
+    .about-card {
+        margin-top: 38px;
+        border: 1px solid rgba(70, 70, 70, 0.3);
+        background-color: $tertiary-color;
+        padding: 20px 15px 10px 15px;
+        text-align: center;
+        border-radius: 4px;
     }
 }
 
 section {
-    margin-top: 20px;
-
-    .row {
+    .program {
         width: 98%;
+        margin-left: auto;
+        margin-right: auto;  
+        border-radius: 5px;      
+        background-color: rgba(255, 255, 255, 0.048);
+
+        h5 {
+            color: $secondary-color;
+        }
+
+        p {
+            color: $primary-container;
+        }
+    }
+
+    .main-program {
+        background: linear-gradient(rgba(21, 24, 27, 0.6), rgba(21, 24, 27, 0.7)), url('../images/squares.png');
+        background-size: 80px;
+        padding: 38px 12px;
+
+        h3 {
+            color: $primary-container;
+        }
+
+        hr {
+            width: 80px;
+            height: 10px;
+            border: 2px solid $secondary-color;
+            background: rgba($color: $secondary-color, $alpha: 1.0);
+        }
+
+        img {
+            width: 60px;
+        }
+
+        button {
+            background-color: $secondary-color;
+            padding: 18px 42px;
+            color: $primary-container;
+            border-radius: 2px;
+            margin-top: 35px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .logo-about {
+        background-color: $tertiary-color;
+        border-bottom: 1px solid rgba($color: $primary-color, $alpha: 0.1);
+        padding: 40px 24px 40px 24px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+
+        p span {
+            font-weight: 600;
+        }
+
+        img {
+            width: 320px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .past-about {
+        img {
+            height: 120px;
+            width: 100%;
+        }
+    }
+}
+
+.featured-speakers {
+    background-color: $primary-container;
+    padding: 38px 12px;
+
+    img {
+        width: 120px;
+    }
+}
+
+.sponsors {
+    padding: 30px 30px 40px 30px;
+    background-color: $primary-color;
+    color: $primary-container;
+
+    hr {
+        width: 40px;
         margin-left: auto;
         margin-right: auto;
     }
-    .program {
-        display: flex;
 
+    .col-4{
+        img {
+            width: 80px;
+        }
+    }
+
+    .apple {
+        img {
+            height: 60px;
+        }
+    }
+
+    .airbnb {
+        img {
+            height: 50px;
+        }
+    }
+
+    .row .col {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+footer {
+    background-color: $primary-container;
+    padding: 30px 20px 20px 20px;
+
+    img {
+        height: 40px;
+    }
+
+    .col-6 {
+        display: flex;
+        align-items: center;
+
+        p {
+            margin-top: 6px;
+            font-size: xx-small;
+        }
     }
 }
