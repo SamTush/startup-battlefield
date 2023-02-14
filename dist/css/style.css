@@ -16,26 +16,34 @@ body button {
   background-color: #f73a01;
 }
 body h1 {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(247, 58, 1, 0.6);
+  background-image: url("/dist/images/photo1.jpg");
+  background-size: 760px;
+  background-position-y: -101px;
+  background-repeat: no-repeat;
   font-weight: 900;
+  font-size: 3em;
+  letter-spacing: 1.5px;
 }
 body h2 {
-  font-weight: 800;
+  font-weight: 600;
 }
 body h4 {
   font-weight: 400;
+  color: #f73a01;
 }
 body h5 {
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .mobile {
   width: 390px;
-  height: 844px;
 }
 
 header {
-  height: 85vh;
-  background: linear-gradient(rgba(211, 211, 211, 0.9), rgb(211, 211, 211)), url("../images/photo1.jpg");
+  background: linear-gradient(rgba(211, 211, 211, 0.9), rgba(211, 211, 211, 0.9)), url("../images/photo1.jpg");
   background-size: auto 100%;
   background-repeat: no-repeat;
 }
@@ -48,7 +56,7 @@ header nav button {
   height: 50px;
 }
 header .home-div {
-  padding: 55px 24px;
+  padding: 32px 24px 10px 24px;
 }
 header .home-div .date {
   margin-top: 30px;
@@ -98,10 +106,12 @@ section .main-program h3 {
   color: #ffffff;
 }
 section .main-program hr {
-  width: 80px;
-  height: 10px;
-  border: 2px solid #f73a01;
-  background: #f73a01;
+  width: 60px;
+  height: 2px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f73a01;
 }
 section .main-program img {
   width: 60px;
@@ -124,6 +134,17 @@ section .logo-about {
   text-align: center;
   justify-content: center;
 }
+section .logo-about h3 {
+  font-weight: 600;
+}
+section .logo-about hr {
+  width: 30px;
+  height: 2px;
+  border: none;
+  background-color: #f73a01;
+  margin-left: auto;
+  margin-right: auto;
+}
 section .logo-about p span {
   font-weight: 600;
 }
@@ -131,8 +152,41 @@ section .logo-about img {
   width: 320px;
   margin-bottom: 10px;
 }
-section .past-about img {
-  height: 120px;
+section .past-about {
+  padding: 24px;
+}
+section .past-about h3 {
+  font-weight: 600;
+}
+section .past-about hr {
+  width: 30px;
+  height: 2px;
+  border: none;
+  background-color: #f73a01;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .past-about p {
+  text-align: center;
+}
+section .past-about div {
+  overflow: hidden;
+}
+section .past-about .group1 {
+  background-color: #f73a01;
+  background-image: url(/dist/images/group1.jpg);
+  height: 100%;
+  width: 100%;
+  margin-top: 18px;
+  width: 342px;
+  height: 228.17px;
+}
+section .past-about .group2 {
+  margin-top: 18px;
+  width: 342px;
+  height: 228.17px;
+}
+section .past-about .group2 img {
   width: 100%;
 }
 
@@ -142,6 +196,32 @@ section .past-about img {
 }
 .featured-speakers img {
   width: 120px;
+}
+.featured-speakers .first {
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  width: 40px;
+  height: 2px;
+  background-color: #f73a01;
+}
+.featured-speakers .hr {
+  margin-top: -6px;
+  width: 20px;
+  background-color: rgba(247, 58, 1, 0.2);
+}
+.featured-speakers h4 {
+  font-size: medium;
+  font-weight: 600;
+}
+.featured-speakers .title {
+  color: #f73a01;
+  font-size: small;
+  margin-top: -4px;
+}
+.featured-speakers p {
+  margin-top: -8px;
+  font-size: small;
 }
 
 .sponsors {

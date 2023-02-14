@@ -23,30 +23,38 @@ body {
     }
 
     h1 {
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: rgba($secondary-color, 0.6);
+        background-image: url('/dist/images/photo1.jpg');
+        background-size: 760px;
+        background-position-y: -101px;
+        background-repeat: no-repeat;
         font-weight: 900;
+        font-size: 3em;
+        letter-spacing: 1.5px;
     }
 
     h2 {
-        font-weight: 800;
+        font-weight: 600;
     }
 
     h4 {
         font-weight: 400;
+        color: $secondary-color;
     }
 
     h5 {
-        font-weight: 400;
+        font-weight: 600;
     }
 }
 
 .mobile {
     width: 390px;
-    height: 844px;
 }
 
 header {
-    height: 85vh;
-    background: linear-gradient(rgba(211, 211, 211, 0.9), rgba(211, 211, 211, 1.0)), url('../images/photo1.jpg');
+    background: linear-gradient(rgba(211, 211, 211, 0.9), rgba(211, 211, 211, 0.9)), url('../images/photo1.jpg');
     background-size: auto 100%;
     background-repeat: no-repeat;
 
@@ -61,7 +69,7 @@ header {
     }
 
     .home-div {
-        padding: 55px 24px;
+        padding: 32px 24px 10px 24px;
 
         .date {
             margin-top: 30px;
@@ -123,10 +131,12 @@ section {
         }
 
         hr {
-            width: 80px;
-            height: 10px;
-            border: 2px solid $secondary-color;
-            background: rgba($color: $secondary-color, $alpha: 1.0);
+            width: 60px;
+            height: 2px;
+            border: none;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgba($secondary-color, 1.0);
         }
 
         img {
@@ -153,6 +163,19 @@ section {
         text-align: center;
         justify-content: center;
 
+        h3 {
+            font-weight: 600;
+        }
+
+        hr {
+            width: 30px;
+            height: 2px;
+            border: none;
+            background-color: rgba($secondary-color, 1.0);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
         p span {
             font-weight: 600;
         }
@@ -164,9 +187,47 @@ section {
     }
 
     .past-about {
-        img {
-            height: 120px;
+        padding: 24px;
+
+        h3 {
+            font-weight: 600;
+        }
+
+        hr {
+            width: 30px;
+            height: 2px;
+            border: none;
+            background-color: rgba($secondary-color, 1.0);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        div {
+            overflow: hidden;
+        }
+
+        .group1 {
+            background-color: #f73a01;
+            background-image: url(/dist/images/group1.jpg);
+            height: 100%;
             width: 100%;
+            margin-top: 18px;
+            width: 342px;
+            height: 228.17px;
+        }
+    
+        .group2 {
+            margin-top: 18px;
+            width: 342px;
+            height: 228.17px;
+
+            img {
+                width: 100%;
+            }
         }
     }
 }
@@ -177,6 +238,37 @@ section {
 
     img {
         width: 120px;
+    }
+
+    .first {
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+        width: 40px;
+        height: 2px;
+        background-color: rgba($secondary-color, 1.0);
+    }
+
+    .hr {
+        margin-top: -6px;
+        width: 20px;
+        background-color: rgba($secondary-color, 0.2);
+    }
+
+    h4 {
+        font-size: medium;
+        font-weight: 600;
+    }
+
+    .title {
+        color: $secondary-color;
+        font-size: small;
+        margin-top: -4px;
+    }
+
+    p {
+        margin-top: -8px;
+        font-size: small;
     }
 }
 
