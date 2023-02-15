@@ -135,7 +135,7 @@ section .main-program button {
   margin-right: auto;
 }
 section .logo-about {
-  background-color: #e2e2e2;
+  background-color: #ffffff;
   border-bottom: 1px solid rgba(35, 36, 37, 0.1);
   padding: 40px 24px 40px 24px;
   display: flex;
@@ -178,22 +178,18 @@ section .past-about hr {
 section .past-about p {
   text-align: center;
 }
-section .past-about div {
-  overflow: hidden;
-}
 section .past-about .group1 {
-  background-color: #f73a01;
-  background-image: url(/dist/images/group1.jpg);
-  height: 100%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+section .past-about .group1 img {
   width: 100%;
-  margin-top: 18px;
-  width: 342px;
-  height: 228.17px;
 }
 section .past-about .group2 {
-  margin-top: 18px;
-  width: 342px;
-  height: 228.17px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 section .past-about .group2 img {
   width: 100%;
@@ -312,8 +308,9 @@ footer .col-6 p {
   header .navbar-expand-lg {
     padding: 5px 120px;
   }
-  header .navbar-expand-lg h4 {
+  header .navbar-expand-lg .h4, header .navbar-expand-lg h4 {
     font-weight: 600;
+    width: 100px;
   }
   header .navbar-expand-lg .navbar-nav {
     display: flex;
@@ -348,6 +345,10 @@ footer .col-6 p {
     background-color: #f73a01;
     height: 2px;
     border: none;
+  }
+  .main-program .program img {
+    margin-left: auto;
+    margin-right: auto;
   }
   .main-program .desktop-row {
     display: flex;
@@ -389,10 +390,26 @@ footer .col-6 p {
     width: 50%;
     padding: 10px;
   }
-  .logo-about {
+  section .logo-about {
     background-color: #ffffff;
+  }
+  section .logo-about img {
+    margin-left: auto;
+    margin-right: auto;
   }
   .past-about {
     background-color: #ffffff;
+  }
+  .past-about h3 {
+    display: flex;
+    justify-content: center;
+  }
+  .past-about .row {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  section .past-about .group1 {
+    margin-right: 13px;
   }
 }/*# sourceMappingURL=style.css.map */

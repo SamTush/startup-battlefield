@@ -164,7 +164,7 @@ section {
     }
 
     .logo-about {
-        background-color: $tertiary-color;
+        background-color: $primary-container;
         border-bottom: 1px solid rgba($color: $primary-color, $alpha: 0.1);
         padding: 40px 24px 40px 24px;
         display: flex;
@@ -215,24 +215,16 @@ section {
             text-align: center;
         }
 
-        div {
-            overflow: hidden;
-        }
-
         .group1 {
-            background-color: #f73a01;
-            background-image: url(/dist/images/group1.jpg);
-            height: 100%;
-            width: 100%;
-            margin-top: 18px;
-            width: 342px;
-            height: 228.17px;
+            width: fit-content;
+            
+            img {
+                width: 100%;
+            }
         }
     
         .group2 {
-            margin-top: 18px;
-            width: 342px;
-            height: 228.17px;
+            width: fit-content;
 
             img {
                 width: 100%;
@@ -381,8 +373,9 @@ footer {
         .navbar-expand-lg {
             padding: 5px 120px;
     
-            h4 {
+            .h4, h4 {
                 font-weight: 600;
+                width: 100px;
             }
     
             .navbar-nav {
@@ -430,6 +423,13 @@ footer {
     }
 
     .main-program {
+        .program {
+            img {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
         .desktop-row {
             display: flex;
             flex-direction: row;
@@ -482,11 +482,32 @@ footer {
         }
     }
 
-    .logo-about {
+    section .logo-about {
         background-color: $primary-container;
-    }
 
+        img {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    
     .past-about {
         background-color: $primary-container;
+
+        h3 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .row {
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+        }
+    }
+
+
+    section .past-about .group1 {
+        margin-right: 13px;
     }
 }
