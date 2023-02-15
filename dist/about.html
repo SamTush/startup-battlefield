@@ -14,7 +14,65 @@
 
     <section class="mobile">
         <header>
-            <nav class="navbar navbar-light">
+            <nav class="navbar navbar-small desktop-hidden">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">English</a>
+                            </li>
+                            <li>
+                                <a href="">My page</a>
+                            </li>
+                            <li>
+                                <a href="">logout</a>
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+            </nav>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary desktop-hidden">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <h4 href="index.html">StartUp BattleField</h4>
+                    </a>
+                    <div class="" id="2">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Program</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Join</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sponsor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                    <button class="btn">SB Campaign</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <nav class="navbar navbar-light mobile-hidden">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -48,6 +106,7 @@
             <div class="home-div-about">
                 <h4>"Ignite New Ideas"</h4>
                 <h1>StartUp BattleField 2023</h1>
+                <hr class="desktop-hidden">
                 <div class="about-card">
                     <p>
                         The original startup conference — stays fresh, relevant and focused on founders, investors
@@ -60,7 +119,7 @@
             </div>
         </header>
 
-        <section class="logo-about container">
+        <section class="logo-about container-fluid">
             <h3>StartUp BattleField<br>hackathon 2023 logo</h3>
             <hr>
             <p>
@@ -69,7 +128,7 @@
             <img src="/dist/images/startup-battlefield.jpeg" alt="" srcset="">
         </section>
 
-        <section class="past-about container">
+        <section class="past-about container-fluid">
             <h3>See the past StartUp Hackathons</h3>
             <hr>
             <p>
@@ -82,23 +141,23 @@
                 <img class="img2 mb-4" src="/dist/images/group2.jpg" alt="" srcset="">
         </section>
 
-        <section class="container sponsors">
+        <section class="container-fluid sponsors">
             <h3 class="d-flex justify-content-center">Sponsors</h3>
             <hr>
             <div class="row">
-                <div class="col col-4">
+                <div class="col col-4 col-md-3 col-lg-3">
                     <img src="../dist/images/amazon.png" alt="" srcset="">
                 </div>
-                <div class="col col-4">
+                <div class="col col-4 col-md-2 col-lg-2">
                     <img src="../dist/images/google2.png" alt="" srcset="">
                 </div>
-                <div class="col col-4">
+                <div class="col col-4 col-md-2 col-lg-2">
                     <img src="../dist/images/google.png" alt="" srcset="">
                 </div>
-                <div class="col col-6 apple">
+                <div class="col col-6 col-md-2 col-lg-2 apple">
                     <img src="../dist/images/apple.png" alt="" srcset="">
                 </div>
-                <div class="col col-6 airbnb">
+                <div class="col col-6 col-md-3 col-lg-3 airbnb">
                     <img src="../dist/images/airbnb.png" alt="" srcset="">
                 </div>
             </div>
@@ -107,7 +166,7 @@
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col col-5 d-flex justify-content-center">
+                    <div class="col col-5 pt-5 pb-5 d-flex justify-content-center">
                         <img src="/dist/images/startup-battlefield.jpeg" alt="" srcset="">
                     </div>
                     <div class="col col-6 d-flex justify-content-center">

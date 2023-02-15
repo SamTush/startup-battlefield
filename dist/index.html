@@ -14,7 +14,65 @@
 
     <section class="mobile">
         <header>
-            <nav class="navbar navbar-light">
+            <nav class="navbar navbar-small desktop-hidden">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">English</a>
+                            </li>
+                            <li>
+                                <a href="">My page</a>
+                            </li>
+                            <li>
+                                <a href="">logout</a>
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+            </nav>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary desktop-hidden">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <h4 href="index.html">StartUp BattleField</h4>
+                    </a>
+                    <div class="" id="2">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Program</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Join</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sponsor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                    <button class="btn">SB Campaign</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <nav class="navbar navbar-light mobile-hidden">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -45,7 +103,7 @@
                     </div>
                 </div>
             </nav>
-            <div class="home-div pb-4">
+            <div class="home-div">
                 <h4>"Ignite New Ideas"</h4>
                 <div class="clip">
                     <h1 class="clip">STARTUP<br>BATTLEFIELD<br>2023</h1>
@@ -63,147 +121,157 @@
                 </div>
             </div>
         </header>
-        <section class="main-program container">
+        <section class="main-program container-fluid">
             <h3 class="d-flex justify-content-center">Main Program</h3>
-            <hr attribute="value"> 
-            <div class="row program p-3 mb-3">
-                <div class="col col-4">
-                    <img src="/dist/images/people.png" alt="" srcset="">
-                    <h5 class="mt-1">participants</h5>
+            <hr attribute="value">
+            <div class="desktop-row">
+                <div class="row program p-3 mb-3">
+                    <div class="col col-4 col-md-12 col-lg-12">
+                        <img src="/dist/images/people.png" alt="" srcset="">
+                        <h5 class="mt-1">participants</h5>
+                    </div>
+                    <div class="col col-8 col-md-12 col-lg-12">
+                        <p>
+                            Listen to the speakers from various countries about the messages.
+                        </p>
+                    </div>
                 </div>
-                <div class="col col-8">
-                    <p>
-                        Listen to the speakers from various countries about the messages.
-                    </p>
+                <div class="row program p-3 mb-3">
+                    <div class="col col-4 col-md-12 col-lg-12">
+                        <img src="/dist/images/event.png" alt="icon leature" srcset="">
+                        <h5 class="mt-2">Program</h5>
+                    </div>
+                    <div class="col col-8 col-md-12 col-lg-12">
+                        <p>
+                            Listen to the speakers from various countries about the messages.
+                        </p>
+                    </div>
                 </div>
+                <div class="row program p-3 mb-3">
+                    <div class="col col-4 col-md-12 col-lg-12">
+                        <img src="/dist/images/session.png" alt="icon leature" srcset="">
+                        <h5 class="mt-2">Sessions</h5>
+                    </div>
+                    <div class="col col-8 col-md-12 col-lg-12">
+                        <p>
+                            Listen to the speakers from various countries about the messages.
+                        </p>
+                    </div>
+                </div>
+                <div class="row program p-3 mb-3">
+                    <div class="col col-4 col-md-12 col-lg-12">
+                        <img src="/dist/images/speaker.png" alt="icon leature" srcset="">
+                        <h5 class="mt-2">Speakers</h5>
+                    </div>
+                    <div class="col col-8 col-md-12 col-lg-12">
+                        <p>
+                            Listen to the speakers from various countries about the messages.
+                        </p>
+                    </div>
+                </div>
+                <div class="row program p-3 mb-3">
+                    <div class="col col-4 col-md-12 col-lg-12">
+                        <img src="/dist/images/award.png" alt="icon leature" srcset="">
+                        <h5 class="mt-2">Rewards</h5>
+                    </div>
+                    <div class="col col-8 col-md-12 col-lg-12">
+                        <p>
+                            Listen to the speakers from various countries about the messages.
+                        </p>
+                    </div>
+                </div>
+                <button class="btn d-flex justify-content-center">Join the BattleField 2023</button>
             </div>
-            <div class="row program p-3 mb-3">
-                <div class="col col-4">
-                    <img src="/dist/images/event.png" alt="icon leature" srcset="">
-                    <h5 class="mt-2">Program</h5>
-                </div>
-                <div class="col col-8">
-                    <p>
-                        Listen to the speakers from various countries about the messages.
-                    </p>
-                </div>
-            </div>
-            <div class="row program p-3 mb-3">
-                <div class="col col-4">
-                    <img src="/dist/images/session.png" alt="icon leature" srcset="">
-                    <h5 class="mt-2">Sessions</h5>
-                </div>
-                <div class="col col-8">
-                    <p>
-                        Listen to the speakers from various countries about the messages.
-                    </p>
-                </div>
-            </div>
-            <div class="row program p-3 mb-3">
-                <div class="col col-4">
-                    <img src="/dist/images/speaker.png" alt="icon leature" srcset="">
-                    <h5 class="mt-2">Speakers</h5>
-                </div>
-                <div class="col col-8">
-                    <p>
-                        Listen to the speakers from various countries about the messages.
-                    </p>
-                </div>
-            </div>
-            <div class="row program p-3 mb-3">
-                <div class="col col-4">
-                    <img src="/dist/images/award.png" alt="icon leature" srcset="">
-                    <h5 class="mt-2">Rewards</h5>
-                </div>
-                <div class="col col-8">
-                    <p>
-                        Listen to the speakers from various countries about the messages.
-                    </p>
-                </div>
-            </div>
-            <button class="btn d-flex justify-content-center">Join the BattleField 2023</button>
+            <h6 class="d-flex justify-content-center desktop-hidden"><a href="">SEE THE WHOLE PROGRAM</a></h6>
         </section>
-        <section class="featured-speakers container">
+        <section class="featured-speakers container-fluid">
             <h3 class="d-flex justify-content-center">Featured Speakers</h3>
             <hr class="first">
-            <div class="row mt-5">
-                <div class="col col-4">
-                    <img src="/dist/images/Aileen-Lee.webp" alt="featured speaker" srcset="">
+            <div class="featured-grid">
+                <div class="row mt-5 mt-lg-0">
+                    <div class="col col-4">
+                        <img src="/dist/images/Aileen-Lee.webp" alt="featured speaker" srcset="">
+                    </div>
+                    <div class="col col-8">
+                        <h4>Yochai Benkler</h4>
+                        <p class="title">Founder & Managing Partner, Cowboy Ventures</p>
+                        <hr class="hr">
+                        <p>
+                            Founding Partner at Cowboy Ventures, a team that backs seed-stage technology companies.
+                        </p>
+                    </div>
                 </div>
-                <div class="col col-8">
-                    <h4>Yochai Benkler</h4>
-                    <p class="title">Founder & Managing Partner, Cowboy Ventures</p>
-                    <hr class="hr">
-                    <p>
-                        Founding Partner at Cowboy Ventures, a team that backs seed-stage technology companies.
-                    </p>
-                </div>
-            </div>
-            <div class="row mt-1">
-                <div class="col col-4">
-                    <img src="/dist/images/Kanyi-Maqubela1.webp" alt="featured speaker" srcset="">
-                </div>
-                <div class="col col-8">
-                    <h4>Kanyi Maqubela</h4>
-                    <p class="title">Managing Partner, Kindred Ventures</p>
-                    <hr>
-                    <p>
-                        Kanyi is a Managing Partner at Kindred Ventures, an early stage venture fund investing in mission-driven technology companies at the earliest stages.
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col col-4">
-                    <img src="/dist/images/RJ-Scavinge.webp" alt="featured speaker" srcset="">
-                </div>
-                <div class="col col-8">
-                    <h4>RJ Scaringe</h4>
-                    <p class="title">Founder & CEO, Rivian</p>
-                    <hr>
-                    <p>
-                        RJ started Rivian to combine his love for cars with his desire to leave the world better for the generations who inherit it.
-                    </p>
+                <div class="row mt-1 mt-lg-0">
+                    <div class="col col-4">
+                        <img src="/dist/images/Kanyi-Maqubela1.webp" alt="featured speaker" srcset="">
+                    </div>
+                    <div class="col col-8">
+                        <h4>Kanyi Maqubela</h4>
+                        <p class="title">Managing Partner, Kindred Ventures</p>
+                        <hr>
+                        <p>
+                            Kanyi is a Managing Partner at Kindred Ventures, an early stage venture fund investing in
+                            mission-driven technology companies at the earliest stages.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="row mt-4">
-                <div class="col col-4">
-                    <img src="/dist/images/Serena-Williams.webp" alt="featured speaker" srcset="">
+            <div class="featured-grid">
+                <div class="row">
+                    <div class="col col-4">
+                        <img src="/dist/images/RJ-Scavinge.webp" alt="featured speaker" srcset="">
+                    </div>
+                    <div class="col col-8">
+                        <h4>RJ Scaringe</h4>
+                        <p class="title">Founder & CEO, Rivian</p>
+                        <hr>
+                        <p>
+                            RJ started Rivian to combine his love for cars with his desire to leave the world better for
+                            the generations who inherit it.
+                        </p>
+                    </div>
                 </div>
-                <div class="col col-8">
-                    <h4>Serena Williams</h4>
-                    <p class="title">Founding & Managing Partner, Serena Ventures</p>
-                    <hr>
-                    <p>
-                        As a world-class athlete, businesswoman, philanthropist and mother, Serena Williams knows what it takes to win
-                    </p>
+                <div class="row mt-4 mt-lg-0">
+                    <div class="col col-4">
+                        <img src="/dist/images/Serena-Williams.webp" alt="featured speaker" srcset="">
+                    </div>
+                    <div class="col col-8">
+                        <h4>Serena Williams</h4>
+                        <p class="title">Founding & Managing Partner, Serena Ventures</p>
+                        <hr>
+                        <p>
+                            As a world-class athlete, businesswoman, philanthropist and mother, Serena Williams knows
+                            what it takes to win
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="d-grid gap-2">
+            <div class="d-grid gap-2 mobile-hidden">
                 <button class="btn btn-outline-secondary" type="button">
                     MORE
                     <span style="font-size: 1.1em; color: Tomato;">
                         <i class="fa-solid fa-angle-down ps-3 fa-"></i>
-                  </span>
+                    </span>
                 </button>
-              </div>
+            </div>
         </section>
-        <section class="container sponsors">
+        <section class="container-fluid sponsors">
             <h3 class="d-flex justify-content-center">Sponsors</h3>
             <hr>
             <div class="row">
-                <div class="col col-4">
+                <div class="col col-4 col-md-3 col-lg-3">
                     <img src="../dist/images/amazon.png" alt="" srcset="">
                 </div>
-                <div class="col col-4">
+                <div class="col col-4 col-md-2 col-lg-2">
                     <img src="../dist/images/google2.png" alt="" srcset="">
                 </div>
-                <div class="col col-4">
+                <div class="col col-4 col-md-2 col-lg-2">
                     <img src="../dist/images/google.png" alt="" srcset="">
                 </div>
-                <div class="col col-6 apple">
+                <div class="col col-6 col-md-2 col-lg-2 apple">
                     <img src="../dist/images/apple.png" alt="" srcset="">
                 </div>
-                <div class="col col-6 airbnb">
+                <div class="col col-6 col-md-3 col-lg-3 airbnb">
                     <img src="../dist/images/airbnb.png" alt="" srcset="">
                 </div>
             </div>
@@ -211,7 +279,7 @@
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col col-5 d-flex justify-content-center">
+                    <div class="col col-5 pt-5 pb-5 d-flex justify-content-center">
                         <img src="/dist/images/startup-battlefield.jpeg" alt="" srcset="">
                     </div>
                     <div class="col col-6 d-flex justify-content-center">
