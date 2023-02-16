@@ -1,35 +1,35 @@
 const featuredSpeakers = document.querySelector('.featured-speakers');
 const speakerSection = document.createElement('div');
 class Speakers {
-    constructor(name, title, about) {
-        this.name = name;
-        this.title = title;
-        this.about = about;
-    }
+  constructor(name, title, about) {
+    this.name = name;
+    this.title = title;
+    this.about = about;
+  }
 }
 
 const speaker1 = new Speakers(
-    'Yochai Benkler',
-    'Founder & Managing Partner, Cowboy Ventures',
-    'Founding Partner at Cowboy Ventures, a team that backs seed-stage technology companies.',
+  'Yochai Benkler',
+  'Founder & Managing Partner, Cowboy Ventures',
+  'Founding Partner at Cowboy Ventures, a team that backs seed-stage technology companies.',
 );
 
 const speaker2 = new Speakers(
-    'Kanyi Maqubela',
-    'Managing Partner, Kindred Ventures',
-    'Kanyi is a Managing Partner at Kindred Ventures, an early stage venture fund investing in mission-driven technology companies at the earliest stages.',
+  'Kanyi Maqubela',
+  'Managing Partner, Kindred Ventures',
+  'Kanyi is a Managing Partner at Kindred Ventures, an early stage venture fund investing in mission-driven technology companies at the earliest stages.',
 );
 
 const speaker3 = new Speakers(
-    'RJ Scaringe',
-    'Founder & CEO, Rivian',
-    'RJ started Rivian to combine his love for cars with his desire to leave the world better for the generations who inherit it.',
+  'RJ Scaringe',
+  'Founder & CEO, Rivian',
+  'RJ started Rivian to combine his love for cars with his desire to leave the world better for the generations who inherit it.',
 );
 
 const speaker4 = new Speakers(
-    'Serena Williams',
-    'Founding & Managing Partner, Serena Ventures',
-    'As a world-class athlete, businesswoman, philanthropist and mother, Serena Williams knows what it takes to win',
+  'Serena Williams',
+  'Founding & Managing Partner, Serena Ventures',
+  'As a world-class athlete, businesswoman, philanthropist and mother, Serena Williams knows what it takes to win',
 );
 
 speakerSection.innerHTML = `
@@ -73,7 +73,7 @@ speakerSection.innerHTML = `
             </span>
         </button>
     </div>
-`
+`;
 
 featuredSpeakers.appendChild(speakerSection);
 const featuredSpeakersTwo = document.querySelector('.second-half');
@@ -109,31 +109,30 @@ featuredSpeakersGridTwo.innerHTML = `
         </div>
         </div>
     </div>
-`
+`;
 
 featuredSpeakersTwo.appendChild(featuredSpeakersGridTwo);
-
 
 const buttonMore = document.querySelector('.more');
 
 function more() {
-    if (featuredSpeakersGridTwo.style.display === 'none') {
-        featuredSpeakersGridTwo.style.display = 'block';
-        buttonMore.innerHTML = `
+  if (featuredSpeakersGridTwo.style.display === 'none') {
+    featuredSpeakersGridTwo.style.display = 'block';
+    buttonMore.innerHTML = `
             LESS
             <span style="font-size: 1.1em; color: Tomato;">
                 <i class="fa-solid fa-angle-up ps-3"></i>
             </span>
-        `
-    } else {
-        featuredSpeakersGridTwo.style.display = 'none';
-        buttonMore.innerHTML = `
+        `;
+  } else {
+    featuredSpeakersGridTwo.style.display = 'none';
+    buttonMore.innerHTML = `
         MORE
         <span style="font-size: 1.1em; color: Tomato;">
             <i class="fa-solid fa-angle-down ps-3"></i>
             </span>
-        `
-    }
+        `;
+  }
 }
 
 buttonMore.addEventListener('click', more);
