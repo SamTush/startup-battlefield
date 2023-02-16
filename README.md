@@ -16,6 +16,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  -[Loom video](#loom-video)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -77,6 +78,15 @@ This is the official page of StartUp-Battlefield, a hackathon to build technolog
 =======
 - [Live Demo Link](https://samtush.github.io/Startup-battlefield/)
 >>>>>>> main
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LOOM VIDEO -->
+
+## 🚀 Loom video <a name="loom-video"></a>
+
+- [Live Demo Link](https://www.loom.com/share/4a704710d1964b7390cc2a2003575079)
+<<<<<<< Loom video of the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
