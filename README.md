@@ -38,6 +38,8 @@
 > # Startup-battlefield
 This is the official page of StartUp-Battlefield, a hackathon to build technologies for a sustainable growth to foster transparency and long-termism in financial and economic activity.
 
+ <img src="image.png" alt="logo" width="auto" />
+
 **[Portfolio setup and mobile first]**  I give appropriate credit to Cindy Shin for the design in Behance (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## 🛠 Built With <a name="built-with">html, scss, bootstrap, javascript</a>
@@ -139,9 +141,7 @@ You can deploy this project using: github
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Turn Behance design to a project.
-
-- [ ] **[images]**
-  <img src="image.png" alt="logo" width="auto" />
+Add other pages in the future.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
