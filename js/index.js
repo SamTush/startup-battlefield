@@ -1,7 +1,7 @@
 const featuredSpeakers = document.querySelector('.featured-speakers');
 const speakerSection = document.createElement('div');
 class Speakers {
-    constructor(name, title, about){
+    constructor(name, title, about) {
         this.name = name;
         this.title = title;
         this.about = about;
@@ -125,7 +125,7 @@ function more() {
                 <i class="fa-solid fa-angle-up ps-3"></i>
             </span>
         `
-    }else {
+    } else {
         featuredSpeakersGridTwo.style.display = 'none';
         buttonMore.innerHTML = `
         MORE

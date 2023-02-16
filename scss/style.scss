@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;500;600;700;900&display=swap');
-
 $primary-color: #232425;
 $secondary-color: #f73a01;
 $tertiary-color: #e2e2e2;
 $primary-container: #ffffff;
 
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -117,8 +116,8 @@ section {
     .program {
         width: 98%;
         margin-left: auto;
-        margin-right: auto;  
-        border-radius: 5px;      
+        margin-right: auto;
+        border-radius: 5px;
         background-color: rgba(255, 255, 255, 0.048);
 
         h5 {
@@ -224,7 +223,7 @@ section {
                 width: 100%;
             }
         }
-    
+
         .group2 {
             width: fit-content;
 
@@ -286,7 +285,7 @@ section {
         margin-right: auto;
     }
 
-    .col-4{
+    .col-4 {
         img {
             width: 80px;
         }
@@ -344,63 +343,65 @@ footer {
 
     header {
         background-repeat: repeat-x;
+
         .navbar-small {
             background-color: #232425;
             height: 40px;
-    
+
             a.navbar-brand {
                 padding: 0;
                 margin: 0;
             }
-    
+
             span {
                 padding: 0;
                 margin: 0;
             }
-    
+
             ul {
                 display: flex;
                 flex-direction: row;
                 gap: 20px;
                 list-style: none;
                 padding: 1px 130px;
-    
+
                 a {
                     text-decoration: none;
                     color: $primary-container;
                 }
             }
         }
-    
+
         .navbar-expand-lg {
             padding: 5px 120px;
-    
-            .h4, h4 {
+
+            .h4,
+            h4 {
                 font-weight: 600;
                 width: 100px;
             }
-    
+
             .navbar-nav {
                 display: flex;
                 flex-direction: row;
                 gap: 30px;
-    
+
                 li.nav-item {
                     margin-top: auto;
                     margin-bottom: auto;
                 }
             }
-    
+
             button {
                 border: 4px solid $secondary-color;
                 color: $secondary-color;
                 border-radius: 2px;
             }
         }
-    
+
         .home-div {
             padding: 90px 140px;
-    
+
             p {
                 width: 50%;
             }
@@ -463,6 +464,7 @@ footer {
                 display: none !important;
             }
         }
+
         h6 {
             a {
                 color: rgba($primary-container, 0.7);
@@ -496,7 +498,7 @@ footer {
             margin-right: auto;
         }
     }
-    
+
     .past-about {
         background-color: $primary-container;
 
