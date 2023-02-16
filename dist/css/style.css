@@ -20,7 +20,6 @@ body button {
 
 body h1 {
   background-clip: text;
-  background-clip: text;
   color: rgb(247 58 1 / 60%);
   background-image: url("/dist/images/photo1.jpg");
   background-size: 760px;
@@ -215,7 +214,6 @@ section .past-about p {
 section .past-about .group1 {
   width: fit-content;
   width: fit-content;
-  width: fit-content;
 }
 
 section .past-about .group1 img {
@@ -223,7 +221,6 @@ section .past-about .group1 img {
 }
 
 section .past-about .group2 {
-  width: fit-content;
   width: fit-content;
   width: fit-content;
 }
@@ -369,7 +366,8 @@ footer .col-6 p {
     padding: 5px 120px;
   }
 
-  header .navbar-expand-lg .h4, header .navbar-expand-lg h4 {
+  header .navbar-expand-lg .h4,
+  header .navbar-expand-lg h4 {
     font-weight: 600;
     width: 100px;
   }
