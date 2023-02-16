@@ -22,10 +22,9 @@ body {
   }
 
   h1 {
-    background-clip: text;
+    background-image: url('/dist/images/photo1.jpg');
     -webkit-background-clip: text;
     color: rgba(247 58 1/ 60%);
-    background-image: url('/dist/images/photo1.jpg');
     background-size: 760px;
     background-position-y: -101px;
     background-repeat: no-repeat;
