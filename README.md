@@ -67,15 +67,15 @@ This is the official page of StartUp-Battlefield, a hackathon to build technolog
 <<<<<<< desktop-version-completed
 > Add a link to your deployed project.
 
-- [Live Demo Link]https://github.com/SamTush/Startup-battlefield.git
+- [Live Demo Link]https://samtush.github.io/Startup-battlefield/
 <<<<<<< desktop-version-completed
 =======
 =======
-- [Live Demo Link](https://github.com/SamTush/Startup-battlefield.git)
+- [Live Demo Link](https://samtush.github.io/Startup-battlefield/)
 >>>>>>> main
 >>>>>>> main
 =======
-- [Live Demo Link](https://github.com/SamTush/Startup-battlefield.git)
+- [Live Demo Link](https://samtush.github.io/Startup-battlefield/)
 >>>>>>> main
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
