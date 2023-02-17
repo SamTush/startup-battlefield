@@ -41,7 +41,7 @@ This is the official page of StartUp-Battlefield, a hackathon to build technolog
 
  <img src="image.png" alt="logo" width="auto" />
 
-**[Portfolio setup and mobile first]**  I give appropriate credit to Cindy Shin for the design in Behance (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+**[Portfolio setup and mobile first]** 
 
 ## 🛠 Built With <a name="built-with">html, scss, bootstrap, javascript</a>
 
@@ -176,6 +176,8 @@ If you like this project, feel free to comment and contribute to it.
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+ I give appropriate credit to Cindy Shin for the design in Behance (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 I would like to thanks to anyone viewing this project and giving a star.
 
