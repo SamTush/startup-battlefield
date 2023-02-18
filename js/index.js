@@ -38,7 +38,7 @@ speakerSection.innerHTML = `
     <div class="featured-grid">
         <div class="row mt-5 mt-lg-0">
             <div class="col col-4">
-                <img src="/dist/images/Aileen-Lee.png" alt="featured speaker" srcset="">
+                <img src="dist/images/Aileen-Lee.png" alt="featured speaker" srcset="">
             </div>
             <div class="col col-8">
                 <h4>${speaker1.name}</h4>
@@ -51,7 +51,7 @@ speakerSection.innerHTML = `
         </div>
         <div class="row mt-1 mt-lg-0">
             <div class="col col-4">
-                <img src="/dist/images/Kanyi-Maqubela1.png" alt="featured speaker" srcset="">
+                <img src="dist/images/Kanyi-Maqubela1.png" alt="featured speaker" srcset="">
             </div>
             <div class="col col-8">
                 <h4>${speaker2.name}</h4>
@@ -84,7 +84,7 @@ featuredSpeakersGridTwo.innerHTML = `
     <div class="featured-grid featured-grid-two">
         <div class="row">
             <div class="col col-4">
-                <img src="/dist/images/RJ-Scavinge.png" alt="featured speaker" srcset="">
+                <img src="dist/images/RJ-Scavinge.png" alt="featured speaker" srcset="">
             </div>
         <div class="col col-8">
             <h4>${speaker3.name}</h4>
@@ -97,7 +97,7 @@ featuredSpeakersGridTwo.innerHTML = `
         </div>
         <div class="row mt-4 mt-lg-0">
         <div class="col col-4">
-            <img src="/dist/images/Serena-Williams.png" alt="featured speaker" srcset="">
+            <img src="dist/images/Serena-Williams.png" alt="featured speaker" srcset="">
         </div>
         <div class="col col-8">
             <h4>${speaker4.name}</h4>
