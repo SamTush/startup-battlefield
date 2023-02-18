@@ -75,9 +75,6 @@ This is the official page of StartUp-Battlefield, a hackathon to build technolog
 - [Live Demo Link](https://samtush.github.io/Startup-battlefield/)
 >>>>>>> main
 >>>>>>> main
-=======
-- [Live Demo Link](https://samtush.github.io/Startup-battlefield/)
->>>>>>> main
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
