@@ -16,7 +16,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
-  -[Loom video](#loom-video)
+  - [🚀 Loom Video](#loom-video)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
