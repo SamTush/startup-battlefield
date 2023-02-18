@@ -184,11 +184,6 @@ I would like to thanks to anyone viewing this project and giving a star.
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-
-- **[What is this website?]**
-
-  - [A design by Cindy Shin in Behance]
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
