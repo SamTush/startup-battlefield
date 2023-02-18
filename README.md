@@ -82,7 +82,7 @@ This is the official page of StartUp-Battlefield, a hackathon to build technolog
 
 ## 🚀 Loom video <a name="loom-video"></a>
 
-- [Live Demo Link](https://www.loom.com/share/4a704710d1964b7390cc2a2003575079)
+- [Live video link](https://www.loom.com/share/5695d7932c28471db0537a5e5b1a74b4)
 <<<<<<< Loom video of the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
