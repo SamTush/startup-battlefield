@@ -51,7 +51,7 @@ speakerSection.innerHTML = `
         </div>
         <div class="row mt-1 mt-lg-0">
             <div class="col col-4">
-                <img src="dist/images/Kanyi-Maqubela1.png" alt="featured speaker" srcset="">
+                <img src="images/Kanyi-Maqubela1.png" alt="featured speaker" srcset="">
             </div>
             <div class="col col-8">
                 <h4>${speaker2.name}</h4>
