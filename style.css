@@ -112,7 +112,8 @@ section .program p {
 }
 
 section .main-program {
-  background: linear-gradient(rgb(21 24 27 / 60%), rgb(21 24 27 / 70%)), url("../images/squares.png");
+  background: rgb(21 24 27 / 70%);
+  background-image: url("../images/squares.png");
   background-size: 80px;
   padding: 38px 12px;
 }
