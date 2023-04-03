@@ -53,8 +53,6 @@ This is the official page of StartUp-Battlefield, a hackathon to build technolog
 
 ### Key Features <a name="key-features"></a>
 
-> Turing Behance design to a project
-
 - **[Nav bar]**
 - **[About me section]**
 
@@ -64,17 +62,7 @@ This is the official page of StartUp-Battlefield, a hackathon to build technolog
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<<<<<<< HEAD
-<<<<<<< desktop-version-completed
-> Add a link to your deployed project.
-
-- [Live Demo Link]https://samtush.github.io/Startup-battlefield/
-<<<<<<< desktop-version-completed
-=======
-=======
-- [Live Demo Link](https://samtush.github.io/Startup-battlefield/)
->>>>>>> main
->>>>>>> main
+- [Live Demo Link](https://samtush.github.io/Startup-battlefield/)]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,12 +165,6 @@ If you like this project, feel free to comment and contribute to it.
  I give appropriate credit to Cindy Shin for the design in Behance (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 I would like to thanks to anyone viewing this project and giving a star.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
