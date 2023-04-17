@@ -23,38 +23,35 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [StartUp BattleField] <a name="about-project"></a>
+# 📖 StartUp BattleField <a name="about-project"></a>
 
-> # Startup-battlefield
 This is the official page of StartUp-Battlefield, a hackathon to build technologies for a sustainable growth to foster transparency and long-termism in financial and economic activity.
 
  <img src="image.png" alt="logo" width="auto" />
 
-**[Portfolio setup and mobile first]** 
+**Portfolio setup and mobile first** 
 
 ## 🛠 Built With <a name="built-with">html, scss, bootstrap, javascript</a>
 
 ### Tech Stack <a name="tech-stack">html, scss, bootstrap, javascript</a>
 
-> html, scss, bootstrap, javascript
+- html, scss, bootstrap, javascript
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Nav bar]**
-- **[About me section]**
+- **Nav bar**
+- **About me section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,24 +59,22 @@ This is the official page of StartUp-Battlefield, a hackathon to build technolog
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://samtush.github.io/Startup-battlefield/)]
+- [Live Demo Link](https://samtush.github.io/Startup-battlefield/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LOOM VIDEO -->
 
 ## 🚀 Loom video <a name="loom-video"></a>
+- Loom video of the project
 
-- [Live video link](https://www.loom.com/share/5695d7932c28471db0537a5e5b1a74b4)
-<<<<<<< Loom video of the project
+  - [Live video link](https://www.loom.com/share/5695d7932c28471db0537a5e5b1a74b4)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Clone the repo and contribate to the site.
 
 To get a local copy up and running, follow these steps.
 
@@ -121,8 +116,6 @@ You can deploy this project using: github
 
 ## 👥 Authors <a name="authors"></a>
 
-> All collaborators of this project.
-
 👤 **Samson**
 
 - GitHub: [@githubhandle](https://github.com/SamTush)
@@ -135,8 +128,8 @@ You can deploy this project using: github
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Turn Behance design to a project.
-Add other pages in the future.
+- Turn Behance design to a project.
+- Add other pages in the future.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
