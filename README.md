@@ -155,7 +155,7 @@ If you like this project, feel free to comment and contribute to it.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
- I give appropriate credit to Cindy Shin for the design in Behance (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+ I give appropriate credit to Cindy Shin for the design in [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 I would like to thanks to anyone viewing this project and giving a star.
 
